@@ -1,0 +1,12 @@
+git remote add origin https://github.com/IvanSherak/angula-bases.git
+git branch -M main
+git push -u origin main
+
+
+
+git config --global http.proxy http://192.168.160.113:44355
+git config --global https.proxy http://192.168.160.113:44355
+
+git config --global --list
+
+git config --global --unset http.proxy
