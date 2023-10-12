@@ -14,4 +14,12 @@ export class MainPageComponent {
   get characters() :Character[] {
     return [...this.dbzService.characters];
   }
+
+  onDeleteCharacter(id: string) :void{
+    this.dbzService.onDeleteCharacterById(id);
+  }
+
+  onNewCharacter( character: Character  ) :void{
+    this.dbzService.addCharacter( character );
+  }
 }
