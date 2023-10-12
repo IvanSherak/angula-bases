@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { CounterModule } from './couter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
-import { DbzModule } from './dgz/dbz.module';
+import { DbzModule } from './dbz/dbz.module';
+
 
 import { AppComponent } from './app.component';
 
